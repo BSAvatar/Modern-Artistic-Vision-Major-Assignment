@@ -1,0 +1,116 @@
+
+/*Controls the font and size of font for the body paragrah as well as the color*/
+body {
+    text-align: center;
+    font-size: 30px;
+    color:rgb(224, 187, 255);
+
+    font-family: 'Century Gothic', Times, sans-serif;
+  } 
+
+
+  /*This makes the main title bigg and changes its color*/
+  h1 {
+    color: rgb(196, 201, 255);
+    text-align: center;
+    font-size: 80px;
+  }
+  
+
+
+   /*This creates the header for each paragraph*/
+  h2,h3,h4,h5{
+    font-size: 50px
+  }
+ 
+
+/*This creates the background color and abstract image for the entire site*/
+  html{
+    height:100%
+  }
+  body{
+    background: rgb(101,66,126);
+    background-image:
+      urlbackground-color: #6a0085;
+    background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png"),
+      url("https://www.transparenttextures.com/patterns/notebook-dark.png"),
+      linear-gradient(149deg, rgba(101,66,126,1) 0%, rgba(255,68,48,1) 50%, rgba(255,253,137,.75) 100%);
+    display: grid;
+    height:200%;
+    place-items:center;
+    text-align:center
+  }
+  a{
+    background:rgba(199,199,199,.7);
+    border-radius:1rem;
+    color:#333;
+    font-weight:700;
+    padding:1rem;
+    text-decoration:none;
+    transition: background-color 0.2s ease-out
+  }
+  a:hover{
+    background:rgba(199,199,199,.9);
+    text-decoration:underline
+  }
+  
+  
+/*Gallery title*/
+
+  b2{ 
+    font-size: 30px
+}
+
+
+/*Works like Title*/
+
+  div {
+    width: 1000px;
+    border: 10px solid rgba(140, 0, 255, 0.541);
+    padding: 20px;
+    margin: 10px;
+  }
+  
+
+ /* Add a black background color to the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #253b1648;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: rgb(5, 156, 243);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #049e9e;
+  color: rgb(248, 0, 0);
+}
+
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+  float: right;
+  padding: 1px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
