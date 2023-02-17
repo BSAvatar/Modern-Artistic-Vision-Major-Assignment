@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"> <!--Part of HTML 5 auto add-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <link rel="stylesheet" href="styles.css">
+    
+    </head>
+
+            <h1> Modern Artistic Vision</h1>
+            <p class = "double" Modern Artistic Vision</p> <!--This calls the border that i defined in the styles section-->
+
+                <div class="topnav">
+                    <a class="active" href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                    <input type="text" placeholder="Search..">
+                </div>
+            
+    
+   <h2> Influences on the Movement </h2>
+   
+        <body>
+                <!-- The main body for the website it gives the most basic info for the site-->
+            Welcome to the Modern artistic vision. We are deticated to spreading information about the best period of time in art.<br>
+            From famous works of the period to influential figures of the time all the information will be made avalible here
+            <br>
+            <br>
+            Think about the influential artisit like Pablo Picasso, Andy Warhol, Jackson pollock and Vincent Van Gogh
+            <br>
+            all those artist are creators from the mordern art period
+            <br>
+            <br>
+
+            <h3> A brief history of the Artist </h3>  <!-- History of the movement-->
+            
+            <br>
+            The Modern art period began in the 1860's and lasted all the way umtil 1975. 
+            It enotes the styles and philosophies of the art produced during that era.
+            he term is usually associated with art in which the traditions of the past have been thrown aside in a spirit of experimentation. 
+            Modern artists experimented with new ways of seeing and with fresh ideas about the nature of materials 
+            and functions of art. A tendency away from the narrative, which was characteristic for the traditional arts, 
+            toward abstraction is characteristic of much modern art. More recent artistic production is often called 
+            contemporary art or postmodern art.
+            <br>
+
+            <h4> Modern Legacy </h4>   <!--the legacy of modern art and what it entails-->
+                The Truth about Modern Art is that it a blanket term for many movement that came from around the time period. 
+                Essentially, Modernism was a period in which many movements existed. What made these movements 
+                similar was the unifying characteristic that rejected all traditional forms of art, 
+                which made them each modern within their own sense.
+            <br>
+            <br>
+            <br>
+            <br>
+
+
+        <h2>Gallery </h2>
+
+            <b2> 
+                    
+                ERA Defining Works: <!--The following code is used to place each picture used for the site-->
+                <br><br> <!--I also turn the pictures themselves into hyperlinks for more informatation about the specific pciture-->
+
+                 <img src="Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" alt = "The Starry Night" width ="500" height="500"> 
+                <!-- This is the link to the image in the directory--> <br>
+                The Starry Night by Vincent van Gogh<br><br><br>
+
+
+                <img src="almond blossoms.jpeg" alt = "Almond blossoms" width = "500" height="500"><br>
+                Almond Blossoms by Vincent van Gogh<br><br><br>
+
+                <img src="A Sunday afternoon on the Island of La Grande Jatte.jpeg" alt = "A Sunday afternoon on the Island of La Grande Jatte" width ="500" height="500"><br>  
+                A Sunday afternoon on the Island of La Grande Jatte by Georges Seurat <br><br><br>
+
+                <img src="the potato eaters.jpeg" alt = "the potato eaters"  width = "500" height="500"><br>
+                The Potato Eaters by Vincent van Gogh <br><br><br>
+
+
+
+
+            </b2>
+
+        
+        </body>
+
+</html>
